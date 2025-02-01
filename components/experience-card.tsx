@@ -201,18 +201,6 @@ export function ExperienceCard() {
                 </p>
               </div>
             </DialogHeader>
-            <Button
-              type="button"
-              variant="ghost"
-              size="icon"
-              className="h-9 w-9 rounded-lg opacity-70 hover:opacity-100 hover:bg-muted transition-all"
-              onClick={() => {
-                formik.resetForm();
-                setIsDatePickerOpen(null);
-              }}
-            >
-              <X className="w-5 h-5" />
-            </Button>
           </div>
         </motion.div>
         <ScrollArea className="px-6 h-[calc(90vh-10rem)]">
